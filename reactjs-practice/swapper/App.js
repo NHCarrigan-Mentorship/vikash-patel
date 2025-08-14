@@ -1,6 +1,10 @@
+import BallsSwapper from "./components/BallsSwapper";
+
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+        <BallsSwapper />
+    </div>
   )
 }
 
