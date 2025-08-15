@@ -1,9 +1,9 @@
-const Button = ({imageUrl, buttonName}) => {
+const Button = ({ imageUrl, buttonName, arrowHandler }) => {
   return (
-    <button title={buttonName}>
-        <img src={imageUrl} alt={buttonName} />
+    <button onClick={arrowHandler} title={buttonName}>
+      <img src={imageUrl} alt={buttonName} />
     </button>
-  )
-}
+  );
+};
 
-export default Button
+export default Button;

@@ -3,9 +3,9 @@ import BallsSwapper from "./components/BallsSwapper";
 const App = () => {
   return (
     <div>
-        <BallsSwapper />
+      <BallsSwapper />
     </div>
-  )
-}
+  );
+};
 
 export default App;

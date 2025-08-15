@@ -6,7 +6,7 @@ const BallsBasket = ({ ballCount, basketName }) => {
       </h1>
       <p>{basketName}</p>
     </div>
-  )
-}
+  );
+};
 
-export default BallsBasket
+export default BallsBasket;
